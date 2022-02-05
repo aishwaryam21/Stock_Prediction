@@ -68,10 +68,10 @@ x_train = np.reshape(x_train,(x_train.shape[0],x_train.shape[1],1))
 
 
 #Importing Keras library
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.layers import LSTM
-from tensorflow.keras.layers import Dropout
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import LSTM
+from keras.layers import Dropout
 
 
 # In[21]:
