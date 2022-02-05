@@ -162,10 +162,9 @@ predicted_stock_price = sc.inverse_transform(predicted_stock_price)
 #Visualizing the predicted values and original values
 plt.plot(predicted_stock_price, color ='red', label = 'predicted_stock_price')
 plt.plot(testing_set, color ='blue', label = 'original_stock_price')
-plt.title('BTC-USD')
+plt.title('BTC-USD Stock Prices')
 plt.xlabel('Time')
 plt.ylabel('Stock Prices')
 plt.legend()
 plt.show()
-
 
